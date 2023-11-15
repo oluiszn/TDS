@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo3.ico">
+
+    <title>Assistência Médica</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Black Office Consulting</a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Serviços</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+
+    <section id="home">
+        <div class="home-text">
+            <h1>Bem-vindo à Sua Assistência Médica</h1>
+            <h2>Bem-vindo à Black Office Consulting, onde o compromisso com a sua saúde é a nossa prioridade. Somos uma empresa especializada em consultoria de benefícios de saúde, dedicada a proporcionar experiências excepcionais e soluções personalizadas para atender às suas necessidades únicas.</h2>
+        </div>
+
+        <div class="home-img">
+            <img src="logo3.png" alt="Imagem de Saúde">
+        </div>
+    </section>
+
+
+</html>
+
+
+    <section id="products">
+        <div class="heading">
+            <h1>Nossos Serviços</h1>
+        </div>
+
+        <a href="contact" div class="Entre em Contato"></a>
+        <a href="about" div class="Quem somos?"></a>
+
+
+        <div class="grid-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="Planos de Saúde.jpg" alt="Serviço 1" id="img-1">
+                </div>
+                <h2>Planos de Saúde</h2>
+                <p>Auxiliar na contratação de planos individuais, familiares, empresariais e por entidade de classe.</p>
+            </div>
+
+
+            
+            <div class="box">
+                <div class="box-img">
+                    <img src="Planos Odontológicoss.jpg" alt="Serviço 2">
+                </div>
+                <h2>Planos Odontológicos</h2>
+                <p>Incentivar o cuidado com a saúde bucal, orientando na contratação do plano ideal.</p>
+            </div>
+
+    </section>
+
+
+
+    <section id="about">
+        <div class="heading">
+            <h1>Quem somos?</h1>
+        </div>
+            </div>
+            <p>Na Black Office Consulting, destacamo-nos como líderes no setor de assistência médica, combinando conhecimento especializado, inovação e um compromisso inabalável com o bem-estar dos nossos clientes. Somos guiados por uma equipe de profissionais experientes e apaixonados, prontos para oferecer orientação especializada nos melhores planos de saúde e odontológicos do Brasil.</p>
+            <p>Nossa missão é garantir que cada indivíduo receba a melhor orientação para suas necessidades de saúde e bem-estar financeiro, proporcionando tranquilidade e segurança para o futuro.</p>
+        </div>
+    </section>
+    
+
+
+    <section id="contact">
+        <div class="heading">
+            <h1>Entre em Contato Conosco</h1>
+        </div>
+        <form action="#" id="formulario" method="POST" name="formulario">
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+            </div>
+            <div class="input-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+            </div>
+            <div class="input-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="4" required></textarea>
+            </div>
+            <div class="footer">
+                <button type="button" class="botao" onclick="enviarMensagem()">Enviar Mensagem</button>
+            </div>
+        </form>
+    </section>
+
+    <script>
+        function enviarMensagem() {
+            alert("Mensagem enviada com sucesso!"); 
+        }
+    </script>
+
+    
+    <section id="faq">
+        <div class="heading">
+            <h1>Perguntas Frequentes (FAQ)</h1>
+        </div>
+
+        <div class="faq-item">
+            <h2>Como agendar uma consulta?</h2>
+            <p>Para agendar uma consulta, basta entrar em contato conosco pelo formulário ou ligar para o nosso
+                atendimento.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>Quais serviços de laboratório oferecemos?Quais são os serviços cobertos pelo plano de assistência médica?</h2>
+            <p>Nossos serviços de laboratório incluem uma ampla gama de exames para avaliação da saúde, desde análises
+                simples até testes mais especializados.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>Quais são os horários de atendimentos?</h2>
+            <p>Segunda - Sexta: 09:00 - 18:00</p>
+        </div>
+    </section>
+
+    </section>
+
+        <div class="chat-container">
+            <div class="chat-header">Chat ao Vivo</div>
+            <div id="chat-box" class="chat-box"></div>
+            <div class="chat-input-container">
+                <input type="text" id="message-input" placeholder="Digite sua mensagem..." autocomplete="off">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+
+        <script src="chat.js"></script>
+  
+    </section>
+
+
+    </section>
+
+    <section id="search">
+        <div class="heading">
+            <h1>Serviços Específicos</h1>
+        </div>
+
+        <div class="search-form">
+            <label for="termo">Digite sua pesquisa:</label>
+            <input type="text" id="termo" name="termo" placeholder="Digite aqui" required>
+
+            <button type="button" class="botao" onclick="realizarPesquisa()">Pesquisar</button>
+        </div>
+
+        <div id="resultado-pesquisa">
+        </div>
+
+        <script>
+            function realizarPesquisa() {
+                var termo = document.getElementById("termo").value;
+                alert("Mandaremos informações do serviço específicado por e-mail: " + termo);
+            }
+        </script>
+    </section>
+
+
+
+    <section id="signup">
+        <div class="heading">
+            <h1>Notificação do Cliente</h1>
+        </div>
+
+        <div class="signup-form">
+            <label for="número">Número:</label>
+            <input type="text" id="nome" name="nome" placeholder="Insira seu número" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+
+            <button type="button" class="botao" onclick="realizarInscricao()">Me Notifique</button>
+        </div>
+
+        <script>
+            function realizarInscricao() {
+                var nome = document.getElementById("nome").value;
+                var email = document.getElementById("email").value;
+                alert("Mandaremos novidades para voce!\nNumero: " + nome + "\nE-mail: " + email);
+            }
+        </script>
+    </section>
+
+    </script>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2023 Powered by Invision Community</p>
+    </footer>
+
+</body>
+
+</html>
